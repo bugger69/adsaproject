@@ -11,7 +11,7 @@ private:
     vector<int> vec;
 
 public:
-    Heap();
+    Heap() {}
     Heap(vector<int> arr, int c);
     void insert_value_minHeap(int val); // Adds value at the end of array and calls min_heapify
     void min_heapify(int i);            // Maintains min heap property

@@ -5,7 +5,7 @@ using namespace std;
 
     
     class Heap{
-private:
+public:
   vector<int> Arr, outVec;
     Heap();
     Heap(vector<int> arr, int c);

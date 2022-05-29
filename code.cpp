@@ -1,6 +1,8 @@
 //i guess here is where the magic will happen
 #include <iostream>
 #include <vector>
+#include "bst.hpp"
+#include "min-heap.hpp"
 
 using namespace std;
 

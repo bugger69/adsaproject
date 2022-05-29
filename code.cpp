@@ -27,8 +27,7 @@ int main() {
         if(k == 6) {
             break;
         }
-
-  
-            }
+        
+    }
     return 0;
 }

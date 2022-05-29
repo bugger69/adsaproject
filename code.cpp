@@ -10,6 +10,8 @@ int main() {
     int min = 1;
     int max = 1500;
     vector<int> rvec;
+    BinarySearchTree bst;
+    Heap hp;
     for(int =0; i < 1000; i++){
         int random_number = min + rand() % ((max - min) +1);
         rvec.push_back(random_number);

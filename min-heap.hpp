@@ -3,10 +3,6 @@
 
 using namespace std;
 
-    void insert_value_minHeap (int val); // Adds value at the end of array and calls min_heapify
-    void min_heapify(int i); //Maintains min heap property
-    void descendingHeapSort(); //Prints the array in descending order 
-    void buildMinHeap(); //Heapifies entire list
     
     class Heap{
 private:
@@ -15,6 +11,12 @@ private:
     Heap(vector<int> arr, int c);
     vector<int> vec;
 
+    void insert_value_minHeap (int val); // Adds value at the end of array and calls min_heapify
+    void min_heapify(int i); //Maintains min heap property
+    void descendingHeapSort(); //Prints the array in descending order 
+    void buildMinHeap(); //Heapifies entire list
+        
+        
 void Heap::insert_value_minHeap(int val)
 {
    int n, tmp;

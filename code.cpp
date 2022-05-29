@@ -35,11 +35,15 @@ int main() {
         } else if (k == 3) {
             //bst print
         } else if (k == 2) {
-            //min-heap populate
+            for(int i = 0; i != rvec.size(); i++) {
+                hp.insert_value_minheap(rvec[i]);
+            }
         } else if (k == 1) {
-            //bst populate
+            for(int i = 0; i != rvec.size(); i++) {
+                bst.insert(rvec[i]);
+            }
         } else {
-            //default
+            cout<<"Enter Valid Input"<<endl;
         }
     }
     return 0;

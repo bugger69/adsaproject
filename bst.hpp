@@ -96,7 +96,7 @@ class BinarySearchTree{
         //     preorder(head_node);
         // }
         
-        vector<int> inorder_traversal(){
+        vector<int> sort(){
             vector<int> ivec;
             inorder(head_node, ivec);
             return ivec;

@@ -31,7 +31,7 @@ int main() {
         } else if (k == 5) {
             //print summary
         } else if (k == 4) {
-            //min-heap
+            //min-heap print
         } else if (k == 3) {
             //bst print
         } else if (k == 2) {

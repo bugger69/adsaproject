@@ -33,7 +33,11 @@ int main() {
         } else if (k == 4) {
             //min-heap print
         } else if (k == 3) {
-            //bst print
+            vector<int> ivec = bst.sort();
+            for(auto it = ivec.rbegin(); it != ivec.rbegin() + 20; it++) {
+                cout<<*it<<" ";
+            }
+            cout<<endl;
         } else if (k == 2) {
             for(int i = 0; i != rvec.size(); i++) {
                 hp.insert_value_minheap(rvec[i]);

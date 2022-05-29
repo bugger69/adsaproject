@@ -26,8 +26,19 @@ int main() {
         cin>>k;
         if(k == 6) {
             break;
+        } else if (k == 5) {
+            //print summary
+        } else if (k == 4) {
+            //min-heap
+        } else if (k == 3) {
+            //bst print
+        } else if (k == 2) {
+            //min-heap populate
+        } else if (k == 1) {
+            //bst populate
+        } else {
+            //default
         }
-        
     }
     return 0;
 }

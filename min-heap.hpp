@@ -96,4 +96,10 @@ void Heap::descendingHeapSort()
 
    Arr = tmpVec;
 }
+        
+void Heap::insert_value_minHeap(int val)
+void Heap::min_heapify(int i)
+void Heap::buildMinHeap()
+void Heap::descendingHeapSort()
+
 };

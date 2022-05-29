@@ -8,11 +8,11 @@ class Heap
 {
 private:
     vector<int> Arr, outVec;
-    Heap();
-    Heap(vector<int> arr, int c);
     vector<int> vec;
 
 public:
+    Heap();
+    Heap(vector<int> arr, int c);
     void insert_value_minHeap(int val); // Adds value at the end of array and calls min_heapify
     void min_heapify(int i);            // Maintains min heap property
     void descendingHeapSort();          // Prints the array in descending order

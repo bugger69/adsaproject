@@ -1,0 +1,17 @@
+// add a encoder server in the .cc file
+
+./ns3 configure --enable-examples --enable-python-bindings --enable-mpi --enable-tests
+
+cd ns-allinone-3.42/ns-3.42/ns-3-dev
+cd ns-allinone-3.40/ns-3.40
+./ns3 run scratch/filename.cc
+
+cd ~/ns-allinone-3.42/netanim-3.109
+./NetAnim
+
+cd "/home/dark/Downloads/tracemetrics-1.4.0/Recent code (1.4.0)/dist"
+java -jar tracemetrics.jar
+
+./test.py --suite=threaded-simulator --fullness=TAKES_FOREVER --text=results.txt
+
+/usr/bin/cmake --build /home/dark/ns-allinone-3.42/ns-3.42/ns-3-dev/cmake-cache -j 1
